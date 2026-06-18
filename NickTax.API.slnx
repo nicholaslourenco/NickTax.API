@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="NickTax.API/NickTax.API.csproj" />
+  <Project Path="NickTax.Application/NickTax.Application.csproj" />
+  <Project Path="NickTax.Domain/NickTax.Domain.csproj" />
+  <Project Path="NickTax.Infrastructure/NickTax.Infrastructure.csproj" />
+  <Project Path="NickTax.Tests/NickTax.Tests.csproj" />
+</Solution>
