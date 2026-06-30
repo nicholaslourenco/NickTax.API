@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using NickTax.Domain.Entities;
-using NickTax.Application.DTOs;
+using NickTax.Application.DTOs.Usuario;
 
 namespace NickTax.Application.Mappings;
 

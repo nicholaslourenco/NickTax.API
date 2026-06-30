@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NickTax.Application.DTOs;
+using NickTax.Application.DTOs.Login;
+using NickTax.Application.DTOs.Token;
+using NickTax.Application.DTOs.Usuario;
 using NickTax.Application.Interfaces;
 
 namespace NickTax.API.Controllers;

@@ -18,6 +18,12 @@ namespace NickTax.Domain.Entities
         [Required, MaxLength(44)]
         public string ChaveAcesso { get; set; } = string.Empty;
 
+        [Required, MaxLength(14)]
+        public string CnpjEmitente { get; set; } = string.Empty;
+
+        [Required, MaxLength(200)]
+        public string NomeEmitente { get; set; } = string.Empty;
+
         [Required]
         public string ConteudoXML { get; set; } = string.Empty;
 

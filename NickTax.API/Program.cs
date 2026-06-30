@@ -52,6 +52,13 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<ISenhaService, SenhaService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IEmpresaRepository, EmpresaRepository>();
+builder.Services.AddScoped<IEmpresaService, EmpresaService>();
+builder.Services.AddScoped<INotaFiscalRepository, NotaFiscalRepository>();
+builder.Services.AddScoped<INotaFiscalService, NotaFiscalService>();
+builder.Services.AddScoped<ICertificadoService, CertificadoService>();
+builder.Services.AddScoped<INfeParserService, NfeParserService>();
+builder.Services.AddScoped<IFocusClient, FocusNfeClient>();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
 
@@ -90,6 +97,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<CreateUsuarioRequestValidat
 builder.Services.AddAutoMapper(cfg =>
 {
     cfg.AddProfile<NickTax.Application.Mappings.MappingProfile>();
+    cfg.AddProfile<NickTax.Application.Mappings.EmpresaMappingProfile>();
+    cfg.AddProfile<NickTax.Application.Mappings.NotaFiscalMappingProfile>();
 });
 
 var app = builder.Build();

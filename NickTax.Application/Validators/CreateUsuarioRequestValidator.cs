@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using NickTax.Application.DTOs;
+using NickTax.Application.DTOs.Usuario;
 
 namespace NickTax.Application.Validators;
 

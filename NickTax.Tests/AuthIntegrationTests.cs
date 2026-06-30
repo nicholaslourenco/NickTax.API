@@ -2,8 +2,8 @@
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
-
-using NickTax.Application.DTOs;
+using NickTax.Application.DTOs.Login;
+using NickTax.Application.DTOs.Usuario;
 
 namespace NickTax.Tests;
 

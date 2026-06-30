@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NickTax.Application.DTOs;
 using NickTax.Application.Interfaces;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using NickTax.Application.DTOs.Usuario;
 
 [ApiController]
 [Route("api/[controller]")]

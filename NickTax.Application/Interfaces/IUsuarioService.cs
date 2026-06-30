@@ -1,4 +1,6 @@
-﻿using NickTax.Application.DTOs;
+﻿using NickTax.Application.DTOs.Login;
+using NickTax.Application.DTOs.Token;
+using NickTax.Application.DTOs.Usuario;
 
 namespace NickTax.Application.Interfaces
 {

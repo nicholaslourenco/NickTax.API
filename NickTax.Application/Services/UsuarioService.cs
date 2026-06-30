@@ -2,10 +2,12 @@
 using Microsoft.Extensions.Logging;
 using System.Security.Cryptography;
 using NickTax.Domain.Interfaces;
-using NickTax.Application.DTOs;
 using NickTax.Application.Interfaces;
 using NickTax.Domain.Entities;
 using NickTax.Domain.Exceptions;
+using NickTax.Application.DTOs.Usuario;
+using NickTax.Application.DTOs.Token;
+using NickTax.Application.DTOs.Login;
 
 namespace NickTax.Application.Services
 {
